@@ -42,7 +42,7 @@ const LoginForm: React.FC<LoginFormProps> = ({
           </HStack>
           <HCaptcha
             ref={captchaRef}
-            sitekey={process.env.REACT_APP_HCAPTCHA_SITE_KEY || ""}
+            sitekey={process.env.REACT_APP_HCAPTCHA_SITE_KEY || "c5c72ffe-e386-4486-b0f3-41474166f447"}
             onVerify={(token) => setCaptchaToken(token)}
           />
         </VStack>
