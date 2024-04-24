@@ -123,7 +123,7 @@ const Main: React.FC = () => {
             </HStack>
 
             <Text fontSize={"s"}>
-              Vocode is an open source library for building voice-based LLM
+              Test is an open source library for building voice-based LLM
               apps. Voices provided via Rime Labs and Google Cloud.
             </Text>
           </VStack>
