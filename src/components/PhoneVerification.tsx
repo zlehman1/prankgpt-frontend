@@ -110,7 +110,7 @@ const PhoneVerification = ({
               {isCallerIdVerification && (
                 <Text>
                   We're setting up your phone's caller ID in our system. You'll
-                  receive a call. When prompted, please enter the number
+                  receive a call.When prompted, please enter the number
                   displayed below.
                 </Text>
               )}
