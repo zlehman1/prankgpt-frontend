@@ -23,7 +23,7 @@ const PrankForm = ({
   const { session } = React.useContext(SessionContext);
   const [receiverPhoneNumber, setReceiverPhoneNumber] = React.useState("");
   const [prompt, setPrompt] = React.useState("");
-  const [anonymous, setAnonymous] = React.useState(True);
+  const [anonymous, setAnonymous] = React.useState(false);
   const [voice, setVoice] = React.useState("marv");
   const [callLoading, setCallLoading] = React.useState(false);
 
@@ -149,7 +149,7 @@ const PrankForm = ({
         3. Enter a prompt to instruct the AI with what to talk about
       </Text>
       <Textarea
-        placeholder="e.g. tell Ajay that he's been accepted to Hogwarts"
+        placeholder="e.g. tell Zack that he's been accepted to Hogwarts"
         width={"40%"}
         minWidth={"300px"}
         fontSize={"15px"}
