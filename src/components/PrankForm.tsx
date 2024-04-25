@@ -126,7 +126,7 @@ const PrankForm = ({
         PrankGPT
       </Text>
       <Text fontSize="20px" padding="10px">
-        1. Enter the phone number of the person you want to prank
+        1. Please enter the phone number of the person you want to prank
       </Text>
       <CustomPhoneInput
         onChange={setReceiverPhoneNumber}
