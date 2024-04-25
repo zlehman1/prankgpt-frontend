@@ -23,7 +23,7 @@ const PrankForm = ({
   const { session } = React.useContext(SessionContext);
   const [receiverPhoneNumber, setReceiverPhoneNumber] = React.useState("");
   const [prompt, setPrompt] = React.useState("");
-  const [anonymous, setAnonymous] = React.useState(false);
+  const [anonymous, setAnonymous] = React.useState(True);
   const [voice, setVoice] = React.useState("marv");
   const [callLoading, setCallLoading] = React.useState(false);
 
